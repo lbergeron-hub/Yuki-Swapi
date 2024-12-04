@@ -1,0 +1,27 @@
+# Ignore node modules (installed dependencies)
+node_modules
+
+# Ignore local development logs and environment files
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+*.log
+
+# Ignore dotenv files (if sensitive information is stored)
+.env
+.env.local
+.env.*.local
+
+# Ignore build output (handled in multi-stage build)
+dist
+
+# Ignore editor configuration and temporary files
+.vscode
+.idea
+.DS_Store
+*.swp
+
+# Ignore Git-related files
+.git
+.gitignore
